@@ -20,5 +20,5 @@ Bienvenidos al punto de partida del registro de mis estudios de ciberseguridad e
  Tomaré este repositorio de github como una nube de referencias escritas que me ayudarán a superar los certificados que ansío realizar y, a su vez, complementar y concluír mi licenciatura. Animo a todos los que estén transitando el mismo camino que yo a estudiar de mis apuntes y a colaborar en caso de que quieran realizar mejoras y añadir nuevo contenido!
 
  ### Y finalmente, un recordatorio 
- <div id="header" align="center"><img src="https://media.giphy.com/media/rYEAkYihZsyWs/giphy.gif" width="100"/></div>
+ <div id="header" align="center"><img src="https://media.giphy.com/media/rYEAkYihZsyWs/giphy.gif" width="800"/></div>
 
