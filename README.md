@@ -37,7 +37,7 @@ Bienvenidos al punto de partida del registro de mis estudios de ciberseguridad e
 ##### Contacto:
 <div id="badges">
 <a href="https://www.linkedin.com/in/alanjaviercanellas/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" width="100"/></a>
-<a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwPkjPmDSZTDHSdQlgwGKNssLrGGkhrqdgHsLMQmqdtrWlfvskwgJqzqVKWDTpgbKwqHrJD" target="_blank"><img src="https://img.shields.io/badge/-Gmail-ffffff?logo=gmail" alt="Gmail Badge" width="80"/></a>
+<a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwPkjPmDSZTDHSdQlgwGKNssLrGGkhrqdgHsLMQmqdtrWlfvskwgJqzqVKWDTpgbKwqHrJD" target="_blank"><img src="https://img.shields.io/badge/-Gmail-ffffff?logo=gmail" alt="Gmail Badge" width="75"/></a>
 </div>
 
 
