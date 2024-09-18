@@ -50,6 +50,21 @@ Al enviar una solicitud hacia una página web, es decir, un request, primero pas
 
 ### Puertos
 
+
+## Conocimiento de red
+
+En el mundo de la ciberseguridad, tener un fuerte conocimiento del networking es crucial. Es importante entender los conceptos fundamentales y mecanismos que indican como los datos son transferidos, como se comunican y se aseguran entre las redes digitales.
+
+### Tópicos
+
+- Arquitectura de red o Network Architecture: Aprender modelo OSI y modelo TCP-IP, modelos de arquitectura de red que definen como los datos son estructurados, transmitidos y recibidos en una red.
+- Protocolos de red o Network Protocols: Es fundamental familiarizarse con varios protocolos de red esenciales para la comunicación efectiva entre dispositivos, incluyendo HTTP, HTTPS, FTP etc. Estos protocolos aseguran que los datos se transmitan de forma confiable y segura entre redes.
+- IP Adressing y Subnetting: Entender como las direcciones IP (Tanto IPV4 como IPV6) se asignan y como se realiza el subnetting para dividir las redes en porciones pequeñas para mejor gestión y seguridad.
+- Routing y Switching: Aprender sobre los roles del router y los switches en una red, y protocolos relacionados como DHCP, NAT y varios protocolos de routing (como OSPF y BGP)
+- Wireless Networking: Estudiar los diferentes tipos de tecnologías wireless como Wi-Fi y Bluetooth. 
+- Seguridad informática o Network Security: Explorar las técnicas y herramientas para defender las redes de ciberamenazas (incluyendo firewalls, sistemas de detección de intrusiones como IDS e IPS y VPNS). Aprender sobre protocolos de seguridad como SSL-TLS, algoritmos de encriptación y mecanismos de acceso seguro.
+- Network Troubleshooting: Entender problemas comunes en las redes y como resolverlos utilizando metodologías como ping, traceroute y wireshark.
+
 ## Créditos
 - Las imágenes forman parte del siguiente <a href="https://www.youtube.com/watch?v=9rABOh8oT24" target="_blank">video</a> del canal de YT an0nali
 
