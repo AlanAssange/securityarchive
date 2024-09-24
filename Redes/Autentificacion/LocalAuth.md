@@ -1,0 +1,3 @@
+# Autentificación local
+
+La autentificación local se refier al proceso de verificar la identidad de un usuario en un dispositivo específico o sistema sin mediar con servicios externos u otras redes. Típicamente se refiere a guardar las credenciales dentro del dispositivo por sí mismo. Métodos comunes incluyen combinaciones de usuario y contraseña, biometrics (huella dactilar, reconocimiento facial) o PIN codes. Se utiliza para aplicaciones offline, acceso a dispositivos o como un fallback cuando la autentificación basada en la red no está disponible. Se utiliza comúnmente en dispositivos personales y escenarios donde la autentificación de red no es necesaria.

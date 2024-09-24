@@ -1,0 +1,4 @@
+# SSH
+
+SSH (Secure Shell) es un protocólo de red criptográfico utilizado para asegurar el login remoto y otros servicios de red sobre una red no segura. Provee un canal seguro sobre una red no segura utilizando una encriptación fuerte para proteger la conexión sobre ataques de tipo eavesdropping, tampering y man-in-the-middle. SSH es utilizado por un login por línea de comando remota o ejecución de comando remota. SSH corre en el puerto TCP 22 y reemplaza otros protocolos de seguridad menos útiles como Telnet. SSH utiliza una llave pública criptográfica para autentificar y soporta varios métodos de autentificación, como contraseñas y autentificaciones de llave. Es una herramienta fundamental para administradores de sistema, desarrolladores y cualquiera que requiera una conexión segura para acceder a un sistema de forma remota.
+
