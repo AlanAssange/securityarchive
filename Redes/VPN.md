@@ -1,0 +1,3 @@
+# VPN
+
+Una Virtual Private Network (VPN) es un método seguro de conexión utilizado para extender las redes privadas sobre redes públicas como internet. Crea un túnel encriptado entre el dispositivo del usuario y un servidor remoto, encriptando los datos en tránsito. Las VPN se utilizan para varios propósitos, incluyendo la privacidad online, pasando por alto las restricciones geográficas, asegurando comunicaciones sobre wifi público y permitiendo el acceso remoto a redes corporativas. Emplean protocolos como OpenVPN, L2TP/IPsec o WireGuard para asegurar la confidencialidad e integridad de los datos. Mientras que las VPN ofrecen privacidad y beneficios de seguridad, su efectividad puede variar basandose en las implementaciones especificas de la misma.
