@@ -1,0 +1,3 @@
+# SaaS (Software as a Service)
+
+SaaS es un modelo cloud-based en el que las aplicaciones de software son enviadas a los usuarios sobre internet, eliminado la necesidad de la instalación local o mantenimiento. Los proveedores de SaaS administran la infraestructura, seguridad y los updates, permitiendo a los usuarios acceder al software o suscripción desde cualquier dispositivo con una conexión a internet. Este modelo ofrece escalabilidad, reduciendo costos y una integración fácil con cualquier otro servicio cloud, haciéndolo una elección popular para empresas que busquen flexibilidad y eficiencia en un deploy de software.
