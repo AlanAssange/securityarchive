@@ -8,7 +8,7 @@ Las funciones hash son deterministas, lo que significa que la misma entrada siem
 
 ## Cómo funciona?
 
-- Se genera un salt aleatorio único para cada usuario.
+- Se genera un salt aleatorio único. (combinacion de bits aleatoria, diferente para cada usuario)
 - Se concatena el salt con la contraseña antes de aplicar el hash.
 - Se almacena tanto el salt como el hash resultante en la base de datos.
 - Para verificar una contraseña, se extrae el salt, se aplica el mismo proceso de hash y se compara con el hash almacenado.
