@@ -1,6 +1,8 @@
 # Broken Object Property Level Authorization
 
-Broken Object Property Level Authorization o BOPLA, es una vulnerabilidad de seguridad en aplicaciones web en la que los controles de acceso a nivel de propiedad dentro de un objeto no están correctamente implementados. Esto permite que un usuario acceda, modifique o elimine propiedades de un objeto a las que no debería tener acceso, incluso si no puede acceder al objeto completo.
+Can user A access user B data?
+
+Broken Object Property Level Authorization o BOPLA, es una vulnerabilidad de seguridad en aplicaciones web en la que los controles de acceso a nivel de propiedad dentro de un objeto no están correctamente implementados. Esto permite que un usuario acceda, modifique o elimine propiedades de un objeto a las que no debería tener acceso, incluso si no puede acceder al objeto completo. Revela datos sensibles y excesivos y explota endpoints modificando sus valores.
 
 Supongamos que una aplicación de banca en línea devuelve un objeto JSON con los datos del usuario:
 
@@ -13,7 +15,7 @@ Supongamos que una aplicación de banca en línea devuelve un objeto JSON con lo
 }
 ```
 
-Si el usuario autenticado no es un administrador, pero aún así recibe el campo "role": "admin", un atacante podría intentar modificar este valor en una solicitud y ganar privilegios elevados.
+Si el usuario autenticado no es un administrador, pero aún así recibe el campo "role": "admin", un atacante podría intentar modificar este valor en una solicitud y ganar privilegios elevados. Esto tambien puede llevar a un masivo robo de datos.
 
 ## Causas comunes de BOPLA
 
@@ -26,12 +28,12 @@ Si el usuario autenticado no es un administrador, pero aún así recibe el campo
 
 ## Prevenir BOPLA
 
-- Implementar controles de acceso a nivel de propiedad
+- Implementar controles de acceso a nivel de propiedad. Solo acceso legitimo.
 - Asegurar que solo los datos necesarios sean expuestos al usuario según sus permisos.
 - No confiar en la seguridad del frontend
 - Validar siempre en el backend qué datos se pueden leer o modificar.
 - Utilizar filtrado de respuestas en la API
-- Enviar solo los datos relevantes para el usuario en cada solicitud.
+- Enviar solo los datos requeridos para el usuario en cada solicitud.
 - uditar y probar regularmente la seguridad
 - Utilizar herramientas como OWASP ZAP o Burp Suite para detectar exposiciones de datos indebidas.
 
