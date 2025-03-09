@@ -2,6 +2,7 @@
 
 Esta vulnerabilidad ocurre cuando una aplicación no implementa correctamente los controles de acceso a nivel de función, permitiendo que un usuario sin permisos adecuados acceda o ejecute acciones restringidas. Esto puede llevar a escalación de privilegios, acceso a datos sensibles o modificaciones no autorizadas.
 
+Ejemplo de BFLA REAL: Bumble permitiendo modificar cuentas de free a premium desde un API.
 Ejemplo de BFLA:
 
 - Escenario: Sistema de gestión de usuarios con roles
