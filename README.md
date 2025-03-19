@@ -42,4 +42,4 @@ Tomaré este repositorio de github como una nube de referencias escritas que me 
 <a href="https://www.linkedin.com/in/alanjaviercanellas/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge" width="100"/></a>
 <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwPkjPmDSZTDHSdQlgwGKNssLrGGkhrqdgHsLMQmqdtrWlfvskwgJqzqVKWDTpgbKwqHrJD" target="_blank"><img src="https://img.shields.io/badge/-Gmail-ffffff?logo=gmail" alt="Gmail Badge" width="75"/></a>
 </div>
-<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=2689931" style='border:none;'></iframe>
+<img src="https://tryhackme-badges.s3.amazonaws.com/AlanSchiffer.png" alt="Your Image Badge" />
