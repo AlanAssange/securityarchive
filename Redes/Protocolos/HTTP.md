@@ -1,9 +1,9 @@
 # HTTP y HTTPS
 
-HTTP (Hypertext Transfer Protocol) y HTTPS (HTTP Secure) son protocolos fundamentales para la comunicación web. HTTP es la raíz del intercambio de datos en la World Wide Web, permitiendo a los buscadores solicitar recursos desde los servidores web. HTTP transmite datos en texto plano y sus direcciones añaden capas de encriptado utilizando protocolos SSL-TLS (Secure Sockets Layer) (Transport Layer Security). Este encriptado protege la confidencialidad e integridad de los datos en tránsito, asegurando la ifnormación sensible como las credenciales de logueo y las transacciones financiales. HTTP también provee autenticación, asegurando que los usuarios se están comunicando con el sitio indicado. En los años recientes, hubo una significante adopción del protocolo HTTPS, con la mayoría de los buscadores marcando los sitios HTTP como "no seguros". 
-
+HTTP (Hypertext Transfer Protocol) y HTTPS (HTTP Secure) son protocolos fundamentales para la comunicación web. HTTP es la raíz del intercambio de datos en la World Wide Web, permitiendo a los buscadores solicitar recursos desde los servidores web. HTTP transmite datos en texto plano y sus direcciones añaden capas de encriptado utilizando protocolos SSL-TLS (Secure Sockets Layer) (Transport Layer Security). Este encriptado protege la confidencialidad e integridad de los datos en tránsito, asegurando la ifnormación sensible como las credenciales de logueo y las transacciones financiales. HTTP también provee autenticación, asegurando que los usuarios se están comunicando con el sitio indicado. En los años recientes, hubo una significante adopción del protocolo HTTPS, con la mayoría de los buscadores marcando los sitios HTTP como "no seguros".
 
 ## HTTP en profundidad
+
 HTTP is a protocol for fetching resources such as HTML documents. It is the foundation of any data exchange on the Web and it is a client-server protocol, which means requests are initiated by the recipient, usually the Web browser. A complete document is typically constructed from resources such as text content, layout instructions, images, videos, scripts, and more.
 
 HTTP es un protocolo para bvuscar recursos como documentos HTML. Es un protocolo de tipo cliente-servidor, lo que significa que sus solicitudes se inician desde el recipiente (que usualmente, es un buscador web). Un documento completo está construído por recursos como contenidos de texto, instrucciones en un layout, imagenes, videos, scripts y más. Ejemplo:
@@ -18,7 +18,7 @@ Los clientes y servidores se comunican intercambiando mensajes individuales. Los
 
 Los request son enviados por una entidad (el usuario o un proxy). La mayoría de las veces es a través de un web browser, pero puede ser cualquier cosa como por ejemplo, un robot que popula contenido en la web y mantiene un search index. Cada request individual es enviado hacia un servidor, que maneja y provee la respuesta. Entre el cliente y el servidor hay numerosas entidades llamadas proxy, que performan diferentes operaciones y actúan como un gateway o caché, por ejemplo.
 
-Hay mas computadoras entre un browser y el servidor manejando el request: routers, modems y más. Gracias al sistema diseñado en capas de la web, están ocultos en la capa de red y capa de transporte. HTTP está en la cima, en la capa de aplicación. 
+Hay mas computadoras entre un browser y el servidor manejando el request: routers, modems y más. Gracias al sistema diseñado en capas de la web, están ocultos en la capa de red y capa de transporte. HTTP está en la cima, en la capa de aplicación.
 
 ## Client, the user-agent
 
@@ -74,6 +74,18 @@ Los requests consisten de los siguientes elementos:
 - Headers opcionales que den información adicional a los servidores.
 - Un body que contenga los datos enviados.
 
+## Flujo de Request HTTP
+
+- Request desde un Browser
+- Chequeo del cache local buscando la direccion IP.
+- Chequeo del servidor recursivo DNS (brindado por el ISP) para buscar la dirección
+- El request pasa por un firewall web.
+- El request pasa por un balanceador.
+- Se conecta al webserver en el puerto 80 o 443.
+- El webserver recibe el request
+- La aplicación web habla con la base de datos.
+- Finalmente, se mapea aquello que querramos ver en la página web solicitada.
+
 ### Responses
 
 <img src="https://mdn.github.io/shared-assets/images/diagrams/http/overview/http-response.svg"/>
@@ -84,5 +96,3 @@ Las respuestas consisten de los siguientes elementos:
 - Un status message, indicando una breve descripción del status code.
 - Headers HTTP, como los del request.
 - Opcionalmente, un body conteniendo el recurso solicitado.
-
-
